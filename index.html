@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Encriptación</title>
+</head>
+<body>
+    <header>
+        <img class="img_logo" src="/img/logo.png">
+        <h1>Encriptación de texto</h1>
+    </header>
+
+    <main>
+        <section>
+            <input type="text" placeholder="ingrese texto aquí">
+            <div class="mensaje">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <button class="btn_encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn_desencriptar" onclick="btnDesncriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+        <section>
+            <div class="textarea-container">
+                <textarea cols="30" rows="10"></textarea>
+                <button onclick="copiarTexto()" class="btn_copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    
+    <script src="/scrip.js"></script>
+</body>
+<footer>Gloriana Sojo - 2024</footer>
+</html>
